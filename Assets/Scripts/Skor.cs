@@ -1,8 +1,6 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
 
 public class Skor : MonoBehaviour
@@ -52,9 +50,10 @@ public class Skor : MonoBehaviour
                 audiosource = GetComponent<AudioSource>();
                 audiosource.Play();
                 winFailText.color = Color.red;
+                endPanel.SetActive(true);
+                SceneManager.LoadScene(1);
             }
-            endPanel.SetActive(true);
-            SceneManager.LoadScene(0);
+            
         }
     }
 

@@ -7430,8 +7430,8 @@ MonoBehaviour:
   skor: 0
   scoreText: {fileID: 1095192709}
   scoreUI: {fileID: 106797734}
-  timer: 30
-  hedefSayi: 5
+  timer: 20
+  hedefSayi: 10
   timerText: {fileID: 501631282}
   winFailText: {fileID: 363687301}
   endPanel: {fileID: 8829839}
